@@ -16,3 +16,107 @@ img {
 }
 
 /* Voeg jouw css hieraan toe */
+@font-face
+{
+    font-family: 'Edo SZ';
+    src: url('../fonts/edosz.ttf');
+}
+@font-face
+{
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/SourceSansPro-Light.otf');
+}
+
+ul.navbar 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 16px;
+    width: 300px;
+    height: 30px;
+    background-color: #6C8A29;
+    position: fixed;
+    overflow: auto;
+}
+
+li.navbar 
+{
+    display: inline;
+    color: #FFF;
+    padding: 16px;
+    text-decoration: none;
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+}
+div.button
+{
+    width: 60px;
+    height: 30px;
+    background-color: #526A1D;
+}
+p.button
+{
+    font-family: 'Source Sans Pro';
+    margin: 0 auto;
+    padding: 0 30% 0 30%;
+    color: #FFF;
+}
+.tekst{
+    width: 600px;
+}
+
+.containerConcAnalyse{
+    width: 600px;
+    background-color: rgba(51, 51, 51, 0.185);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.colorExample
+{
+    width: 100px;
+    height: 100px;
+    background-color: #6C8A29;
+    margin: 10px;
+}
+.colorExample2
+{
+    width: 100px;
+    height: 100px;
+    background-color: #DEDEDEDE;
+    margin: 10px;
+}
+.colorExample3
+{
+    width: 100px;
+    height: 100px;
+    background-color: #526A1D;
+    margin: 10px;
+}
+.container
+{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 60px;
+    margin-top: O;
+}
+.font1
+{
+    font-family: 'Edo SZ';
+    margin-right: 20px;
+}
+.font2
+{
+    font-family: 'Source Sans Pro';
+    margin-right: 20px;
+}
+.logo
+{
+    font-family: 'Edo SZ';
+    font-size: 50px;
+    margin: 0;
+}
+.colorContainer
+{
+    display: block;
+}
